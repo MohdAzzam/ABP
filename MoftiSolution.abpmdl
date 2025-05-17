@@ -1,0 +1,97 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.1.1",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "MoftiSolution.Application": {
+      "path": "src/MoftiSolution.Application/MoftiSolution.Application.abppkg",
+      "folder": "src"
+    },
+    "MoftiSolution.Application.Tests": {
+      "path": "test/MoftiSolution.Application.Tests/MoftiSolution.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "MoftiSolution.Domain.Shared": {
+      "path": "src/MoftiSolution.Domain.Shared/MoftiSolution.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "MoftiSolution.Application.Contracts": {
+      "path": "src/MoftiSolution.Application.Contracts/MoftiSolution.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "MoftiSolution.HttpApi": {
+      "path": "src/MoftiSolution.HttpApi/MoftiSolution.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "MoftiSolution.HttpApi.Client": {
+      "path": "src/MoftiSolution.HttpApi.Client/MoftiSolution.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "MoftiSolution.EntityFrameworkCore.Tests": {
+      "path": "test/MoftiSolution.EntityFrameworkCore.Tests/MoftiSolution.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "MoftiSolution.EntityFrameworkCore": {
+      "path": "src/MoftiSolution.EntityFrameworkCore/MoftiSolution.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "MoftiSolution.TestBase": {
+      "path": "test/MoftiSolution.TestBase/MoftiSolution.TestBase.abppkg",
+      "folder": "test"
+    },
+    "MoftiSolution.Domain.Tests": {
+      "path": "test/MoftiSolution.Domain.Tests/MoftiSolution.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "MoftiSolution.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/MoftiSolution.HttpApi.Client.ConsoleTestApp/MoftiSolution.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "MoftiSolution.DbMigrator": {
+      "path": "src/MoftiSolution.DbMigrator/MoftiSolution.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "MoftiSolution.HttpApi.Host": {
+      "path": "src/MoftiSolution.HttpApi.Host/MoftiSolution.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "MoftiSolution.Domain": {
+      "path": "src/MoftiSolution.Domain/MoftiSolution.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
